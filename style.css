@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: skyblue;
+}
+section {
+  width: 35%;
+  height: 63vh;
+  background-color: white;
+  margin: 12vh auto;
+}
+.dot {
+  border-radius: 50%;
+  background: white;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+header {
+  background-color: rgb(100, 150, 200);
+  height: 5rem;
+}
+.circle {
+  display: flex;
+}
+header h1 {
+  margin-top: 1.7rem;
+  margin-left: 1rem;
+  color: white;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header h2 {
+  margin-top: 1rem;
+  padding-left: 15rem;
+  color: white;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+}
+.date {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.date p:first-child {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.date p:last-child {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.date p:nth-child(2) {
+  color: rgba(0, 0, 0, 0.2);
+  padding: 0 1rem;
+}
+.line {
+  height: 2px;
+  flex-grow: 1;
+}
+.chat {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.chat1 h4 {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 0.9rem;
+  margin-left: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+.chat2 {
+  background-color: aliceblue;
+  width: 20rem;
+  height: 4rem;
+  padding: 1rem 1rem;
+  margin-left: 1.2rem;
+  font-size: 0.85rem;
+  font-weight: 450;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.chat3 {
+  margin-left: 27.8rem;
+}
+.chat4 {
+  margin-left: 12rem;
+  display: flex;
+  width: 18rem;
+  height: 3.8rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.chat3 h4 {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+.chat5 h4 {
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 1.2rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.9rem;
+}
+.chat6 {
+  background-color: aliceblue;
+  width: 6rem;
+  height: 3rem;
+  padding: 0.8rem 0.5rem;
+  margin-left: 1rem;
+  font-weight: 500;
+  font-size: 0.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.chat7 {
+  margin-left: 16rem;
+  background-color: rgb(255, 200, 200);
+  width: 14rem;
+  height: 2.8rem;
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: 500;
+  font-size: 0.85rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bottom-line {
+  height: 2px;
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-top: 1.5rem;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 15rem;
+  margin-top: 1.2rem;
+}
+.chat8 {
+  margin-left: 1rem;
+}
+.chat8 p {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+}
+.chat9 h4 {
+  color: rgb(100, 150, 200);
+  margin-left: 2rem;
+}
